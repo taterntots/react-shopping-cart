@@ -14,7 +14,7 @@ const ShoppingCart = () => {
 		return cart.reduce((acc, value) => {
 			return acc + value.price;
 		}, 0).toFixed(2);
-	};
+	}
 
 	return (
 		<div className="shopping-cart">
